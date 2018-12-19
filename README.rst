@@ -6,7 +6,7 @@ polr
 .. image:: https://img.shields.io/pypi/v/polr.svg
         :target: https://pypi.python.org/pypi/polr-py
 
-.. image:: https://img.shields.io/travis/kylie-a/polr.svg
+.. image:: https://img.shields.io/travis/kylie-a/polr-py.svg
         :target: https://travis-ci.org/kylie-a/polr-py
 
 .. image:: https://readthedocs.org/projects/polr/badge/?version=latest
@@ -14,7 +14,7 @@ polr
         :alt: Documentation Status
 
 
-.. image:: https://pyup.io/repos/github/kylie-a/polr/shield.svg
+.. image:: https://pyup.io/repos/github/kylie-a/polr-py/shield.svg
      :target: https://pyup.io/repos/github/kylie-a/polr-py/
      :alt: Updates
 
