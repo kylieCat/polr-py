@@ -204,7 +204,6 @@ class Polr(HTTPBaseClient):
             route,
             params=params
         )
-        import ipdb; ipdb.set_trace()
         if resp.status_code == HTTPResponseCodes.BAD_REQUEST:
             raise ShortenerClientException(f"error making request: {resp.content}")
         elif resp.status_code == HTTPResponseCodes.INTERNAL_SERVER_ERROR:
@@ -219,4 +218,3 @@ class Polr(HTTPBaseClient):
             raise ShortenerClientException(f"error making request: {resp.content.decode('utf8')}")
         elif HTTPResponseCodes.is_5xx_code(resp.status_code):
             raise ShortenerServerException(f"error communicating with Polr server: {resp.content.decode('utf8')}")
-

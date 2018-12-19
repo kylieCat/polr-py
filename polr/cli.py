@@ -28,10 +28,13 @@ def polr(args=None):
     return 0
 
 
+SHORTEN_HELP_STR = "Return an error if a link with the desired customending already exists"
+
+
 @polr.command(name="shorten")
 @click.argument("url")
 @click.option("-e", "--ending", "ending", help="A custom ending for the shortened link.")
-@click.option("-f", "--fail", "raise_on_exists", is_flag=True, help="Return an error if a link with the desired customending already exists")
+@click.option("-f", "--fail", "raise_on_exists", is_flag=True, help=SHORTEN_HELP_STR)
 def shorten(url, ending="", raise_on_exists=False):
     """
     Shorten a link with the option to give it a custom ending. Checks to see if a link with
