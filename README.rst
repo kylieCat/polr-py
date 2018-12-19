@@ -4,10 +4,10 @@ polr
 
 
 .. image:: https://img.shields.io/pypi/v/polr.svg
-        :target: https://pypi.python.org/pypi/polr
+        :target: https://pypi.python.org/pypi/polr-py
 
 .. image:: https://img.shields.io/travis/kylie-a/polr.svg
-        :target: https://travis-ci.org/kylie-a/polr
+        :target: https://travis-ci.org/kylie-a/polr-py
 
 .. image:: https://readthedocs.org/projects/polr/badge/?version=latest
         :target: https://polr.readthedocs.io/en/latest/?badge=latest
@@ -15,7 +15,7 @@ polr
 
 
 .. image:: https://pyup.io/repos/github/kylie-a/polr/shield.svg
-     :target: https://pyup.io/repos/github/kylie-a/polr/
+     :target: https://pyup.io/repos/github/kylie-a/polr-py/
      :alt: Updates
 
 
