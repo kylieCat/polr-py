@@ -32,13 +32,13 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/kylie-m/polr
+    $ git clone git://github.com/kylie-a/polr
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl  -OL https://github.com/kylie-m/polr/tarball/master
+    $ curl  -OL https://github.com/kylie-a/polr/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/kylie-m/polr-py
-.. _tarball: https://github.com/kylie-m/polr-py/tarball/master
+.. _Github repo: https://github.com/kylie-a/polr-py
+.. _tarball: https://github.com/kylie-a/polr-py/tarball/master

@@ -6,16 +6,16 @@ polr
 .. image:: https://img.shields.io/pypi/v/polr.svg
         :target: https://pypi.python.org/pypi/polr
 
-.. image:: https://img.shields.io/travis/kylie-m/polr.svg
-        :target: https://travis-ci.org/kylie-m/polr
+.. image:: https://img.shields.io/travis/kylie-a/polr.svg
+        :target: https://travis-ci.org/kylie-a/polr
 
 .. image:: https://readthedocs.org/projects/polr/badge/?version=latest
         :target: https://polr.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
 
-.. image:: https://pyup.io/repos/github/kylie-m/polr/shield.svg
-     :target: https://pyup.io/repos/github/kylie-m/polr/
+.. image:: https://pyup.io/repos/github/kylie-a/polr/shield.svg
+     :target: https://pyup.io/repos/github/kylie-a/polr/
      :alt: Updates
 
 

@@ -1,4 +1,4 @@
-* pylr version:
+* polr-py version:
 * Python version:
 * Operating System:
 
