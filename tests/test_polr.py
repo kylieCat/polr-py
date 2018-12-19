@@ -17,7 +17,7 @@ class TestPolr(unittest.TestCase):
         runner = CliRunner()
         result = runner.invoke(cli.polr)
         assert result.exit_code == 0
-        assert 'polr.cli.polr' in result.output
+        assert 'Usage: polr [OPTIONS] COMMAND [ARGS]...' in result.output
         help_result = runner.invoke(cli.polr, ['--help'])
         assert help_result.exit_code == 0
         assert '--help  Show this message and exit.' in help_result.output
