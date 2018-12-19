@@ -7,7 +7,6 @@
 import unittest
 from click.testing import CliRunner
 
-from polr import polr
 from polr import cli
 
 
